@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="icbg_classic">#FF0F172A</color>
+    <color name="icbg_ember">#FF000000</color>
+    <color name="icbg_skeuo">#FF1A1512</color>
+    <color name="icbg_neumorph">#FFE4E9F0</color>
+    <color name="icbg_glass">#FF0D1230</color>
+    <color name="icbg_clay">#FFF8D9C4</color>
+    <color name="icbg_aurora">#FF040816</color>
+    <color name="icbg_mesh">#FFFFF4EE</color>
+    <color name="icbg_dark">#FF0A0A0B</color>
+    <color name="icbg_metal">#FF1B1D20</color>
+    <color name="icbg_paper">#FFEDE5D6</color>
+    <color name="icbg_wood">#FF2F1C11</color>
+    <color name="icbg_bio">#FF0E2C20</color>
+    <color name="icbg_liquid">#FF061D4A</color>
+    <color name="icbg_ai">#FF08061A</color>
+</resources>

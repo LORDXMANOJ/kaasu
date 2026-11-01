@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kaasu</string>
+    <string name="shortcut_scan">Scan &amp; pay</string>
+    <string name="shortcut_scan_long">Scan a QR and pay</string>
+    <string name="shortcut_people">Pay a person</string>
+    <string name="shortcut_people_long">Pay or lend to a person</string>
+    <string name="shortcut_history">History</string>
+    <string name="shortcut_reports">Report</string>
+    <string name="shortcut_reports_long">This week\'s marks</string>
+    <string name="widget_description">Money left today, Scan &amp; pay and Pay a person</string>
+</resources>

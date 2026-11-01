@@ -1,0 +1,31 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+*.keystore
+!debug.keystore
+keystore.properties
+
+# Videos and screen recordings (not code)
+*.mp4
+*.mov
+*.webm
+
+# Editor and local tools
+.vscode/
+*.tmp
+
+# Secrets: signing keys and passwords stay on this computer only
+*.jks
+keystore.properties
+*.keystore
+
+# Build output
+/app/build
+/build

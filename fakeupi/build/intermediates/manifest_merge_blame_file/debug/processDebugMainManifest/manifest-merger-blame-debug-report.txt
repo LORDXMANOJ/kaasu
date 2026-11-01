@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.manoj.fakeupi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="36" />
+10
+11    <application
+11-->C:\android app\fakeupi\src\main\AndroidManifest.xml:3:5-12:19
+12        android:debuggable="true"
+13        android:extractNativeLibs="false"
+14        android:label="FakeUPI (test)"
+14-->C:\android app\fakeupi\src\main\AndroidManifest.xml:3:18-48
+15        android:theme="@android:style/Theme.Material.Light.Dialog" >
+15-->C:\android app\fakeupi\src\main\AndroidManifest.xml:3:49-107
+16        <activity
+16-->C:\android app\fakeupi\src\main\AndroidManifest.xml:4:9-11:20
+17            android:name="com.manoj.fakeupi.PayActivity"
+17-->C:\android app\fakeupi\src\main\AndroidManifest.xml:4:19-46
+18            android:exported="true" >
+18-->C:\android app\fakeupi\src\main\AndroidManifest.xml:4:47-70
+19            <intent-filter>
+19-->C:\android app\fakeupi\src\main\AndroidManifest.xml:5:13-10:29
+20                <action android:name="android.intent.action.VIEW" />
+20-->C:\android app\fakeupi\src\main\AndroidManifest.xml:6:17-69
+20-->C:\android app\fakeupi\src\main\AndroidManifest.xml:6:25-66
+21
+22                <category android:name="android.intent.category.DEFAULT" />
+22-->C:\android app\fakeupi\src\main\AndroidManifest.xml:7:17-76
+22-->C:\android app\fakeupi\src\main\AndroidManifest.xml:7:27-73
+23                <category android:name="android.intent.category.BROWSABLE" />
+23-->C:\android app\fakeupi\src\main\AndroidManifest.xml:8:17-78
+23-->C:\android app\fakeupi\src\main\AndroidManifest.xml:8:27-75
+24
+25                <data
+25-->C:\android app\fakeupi\src\main\AndroidManifest.xml:9:17-65
+26                    android:host="pay"
+26-->C:\android app\fakeupi\src\main\AndroidManifest.xml:9:44-62
+27                    android:scheme="upi" />
+27-->C:\android app\fakeupi\src\main\AndroidManifest.xml:9:23-43
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>

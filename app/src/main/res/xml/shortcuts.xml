@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App shortcuts: long-press the Kaasu icon, or add them to the launcher's icon widget. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_scan"
+        android:shortcutId="scan"
+        android:shortcutLongLabel="@string/shortcut_scan_long"
+        android:shortcutShortLabel="@string/shortcut_scan">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.manoj.kaasu.MainActivity"
+            android:targetPackage="com.manoj.kaasu">
+            <extra android:name="com.manoj.kaasu.OPEN" android:value="scan" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_people"
+        android:shortcutId="people"
+        android:shortcutLongLabel="@string/shortcut_people_long"
+        android:shortcutShortLabel="@string/shortcut_people">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.manoj.kaasu.MainActivity"
+            android:targetPackage="com.manoj.kaasu">
+            <extra android:name="com.manoj.kaasu.OPEN" android:value="people" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_history"
+        android:shortcutId="history"
+        android:shortcutLongLabel="@string/shortcut_history"
+        android:shortcutShortLabel="@string/shortcut_history">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.manoj.kaasu.MainActivity"
+            android:targetPackage="com.manoj.kaasu">
+            <extra android:name="com.manoj.kaasu.OPEN" android:value="history" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_reports"
+        android:shortcutId="reports"
+        android:shortcutLongLabel="@string/shortcut_reports_long"
+        android:shortcutShortLabel="@string/shortcut_reports">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.manoj.kaasu.MainActivity"
+            android:targetPackage="com.manoj.kaasu">
+            <extra android:name="com.manoj.kaasu.OPEN" android:value="reports" />
+        </intent>
+    </shortcut>
+</shortcuts>
